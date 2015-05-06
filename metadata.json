@@ -1,0 +1,26 @@
+{
+  "name": "puppet-module-redistest",
+  "version": "0.1.0",
+  "author": "Nilesh",
+  "summary": "Test Redis module with new skeleton",
+  "license": "Apache 2.0",
+  "source": "https://github.com/NileBaro/Nilesh-module-test_redis",
+  "description": "",
+  "project_page": "https://github.com/NileBaro/Nilesh-module-test_redis/blob/master/README.md",
+  "issues_url": "https://github.com/NileBaro/Nilesh-module-test_redis/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
